@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body">
+
+    <h1>Etch a scetch</h1>
+    <div class="flex-container">
+        <div class="color-container">
+            <form>
+                <label>Choose color: </label>
+                <input class="input-color" type="color" value="#F3EFF5">
+            </form>
+            <button class="clear-button">Clear</button>
+        </div>
+        <div class="table"></div>
+        <form>
+            <label>Number of cells: </label>
+            <br>
+            <input class="size-range" type="range" min="5" max="50" step="1" value="10">
+            <label class="size-label">10</label>
+        </form>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
